@@ -38,3 +38,42 @@ ecommerce-testing-suite/
 ├── test_user_management_firefox.py   # Firefox-specific user tests
 ├── test_user_management_fixed.py     # Fixed user management issues
 └── .idea/                            # IDE configuration files
+
+## 🧪 Test Coverage
+
+### User Management Tests
+- User registration and account creation
+- Login/logout functionality
+- Profile management and updates
+- Cross-browser user experience validation
+
+### Shopping Cart Tests
+- Add/remove products from cart
+- Cart persistence across sessions
+- Quantity updates and calculations
+- Cart checkout process validation
+
+### Navigation Tests
+- Menu functionality and links
+- Search feature validation
+- Product browsing and filtering
+- Page load and responsiveness
+
+### API Tests
+- Product data endpoints
+- User authentication APIs
+- Cart management APIs
+- Order processing endpoints
+
+## 🚀 How to Run
+```bash
+# Run main test suite
+python main.py
+
+# Run specific test modules
+python test_user_management.py
+python test_shopping_cart.py
+python test_api_complete.py
+
+# Run browser-specific tests
+python test_user_management_firefox.py
