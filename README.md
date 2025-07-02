@@ -26,3 +26,11 @@ Tests an online shopping website to find bugs and problems. Checks if shopping c
 4. **Form Validation:** Missing client-side validation
 
 ## 📁 Project Structure
+ecommerce-testing-suite/
+├── test_cases/
+│   ├── ui_tests/          # Selenium WebDriver tests
+│   └── api_tests/         # REST API validation tests
+├── test_data/             # Test datasets
+├── reports/               # HTML test reports
+├── screenshots/           # Failure screenshots
+└── requirements.txt       # Python dependencies
