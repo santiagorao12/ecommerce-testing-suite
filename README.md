@@ -26,19 +26,18 @@ Tests an online shopping website to find bugs and problems. Checks if shopping c
 4. **Form Validation:** Missing client-side validation
 
 ## 📁 Project Structure
-ecommerce-testing-suite/
-├── README.md
-├── main.py                              # Main test runner
-├── test_advanced_features.py            # Advanced e-commerce functionality tests
-├── test_api_complete.py                 # Complete API endpoint validation
-├── test_basic_setup.py                  # Basic setup and configuration tests
-├── test_navigation_features.py          # Website navigation testing
-├── test_shopping_cart.py                # Shopping cart functionality tests
-├── test_user_management.py              # User registration and login tests
-├── test_user_management_firefox.py      # Firefox-specific user tests
-├── test_user_management_fixed.py        # Fixed user management issues
-└── .idea/                               # IDE configuration files
-
+**ecommerce-testing-suite/**
+- README.md
+- main.py (Main test runner)
+- test_advanced_features.py (Advanced e-commerce functionality tests)
+- test_api_complete.py (Complete API endpoint validation)
+- test_basic_setup.py (Basic setup and configuration tests)
+- test_navigation_features.py (Website navigation testing)
+- test_shopping_cart.py (Shopping cart functionality tests)
+- test_user_management.py (User registration and login tests)
+- test_user_management_firefox.py (Firefox-specific user tests)
+- test_user_management_fixed.py (Fixed user management issues)
+- .idea/ (IDE configuration files)
 ## 🧪 Test Coverage
 
 ### User Management Tests
